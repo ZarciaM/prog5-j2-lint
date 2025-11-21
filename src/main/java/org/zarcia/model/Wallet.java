@@ -50,7 +50,7 @@ public class Wallet {
 
     public void setLost(boolean lost) {
         this.lost = lost;
-        this.open = false; // a lost wallet cannot stay open
+        this.open = false;
     }
 
     public boolean checkAmount(int requiredAmount) {
